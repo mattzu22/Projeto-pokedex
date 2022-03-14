@@ -1,0 +1,98 @@
+.cartao-pokemon{
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    display: none;
+}
+
+.cartao-pokemon .cartao-topo{
+    padding: 30px 40px 0;
+}
+
+.cartao-pokemon .nome{
+    margin-bottom: 5px;
+}
+
+.cartao-pokemon .tipo{
+    font-size: 13px;
+    background-color:#ffffff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    opacity: 0.7;
+    border-radius: 12px;
+    padding: 3px 7px;
+}
+
+.cartao-pokemon .detalhes{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao-pokemon .cartao-imagem{
+    width: 350px;
+    height: 350px;
+}
+
+.cartao-pokemon img{
+max-width: 100%;
+}
+
+.cartao-pokemon .cartao-informacoes{
+    display: flex;
+    justify-content:  space-between;
+    background-color: #ffffff;
+    padding: 90px 30px 50px;
+    margin-top: -80px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.cartao-pokemon .cartao-informacoes h3{
+    font-size: 23px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #6B727A;
+}
+
+.cartao-pokemon .cartao-informacoes .status,.cartao-pokemon .cartao-informacoes .habilidades{
+    padding: 0 10px;
+    width: 180px;
+}
+
+.cartao-pokemon .cartao-informacoes .habilidades ul li, .cartao-pokemon .cartao-informacoes .status ul li{
+    border-bottom: 1px solid #C3C4C5;
+    padding: 0 0 5px;
+    margin-bottom: 3px;
+    font-size: 15px;
+}
+
+.cartao-pokemon.aberto{
+    display: block;
+}
+
+.tipo-fogo{
+    background-color: #f15959fd;
+}
+
+.tipo-eletrico {
+    background-color: #ddb42e;
+}
+
+.tipo-agua-dragao{
+    background-color: #75eefe;
+}
+
+.tipo-planta{
+    background-color: #64e296;
+}
+
+.tipo-fantasma{
+    background-color: #c071ce;
+}
+
+.tipo-voador-dragao{
+    background-color: #dfce36da;
+}
+
+
+
